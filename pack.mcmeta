@@ -1,0 +1,19 @@
+{
+	"pack": {
+		"pack_format": 48,
+		"supported_formats": [48, 81],
+		"min_format": 82,
+		"max_format": 999,
+		"description": "§8By §cSozoKa §8for §cX §c- §7..."
+	},
+	"overlays": {
+		"entries": [
+			{
+				"formats": [71, 81],
+				"min_format": 71,
+				"max_format": 999,
+				"directory": "v71-1.21.5"
+			}
+		]
+	}
+}
