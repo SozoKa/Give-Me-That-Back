@@ -4,14 +4,24 @@
 		"supported_formats": [48, 81],
 		"min_format": 82,
 		"max_format": 999,
-		"description": "§8By §cSozoKa §8for §cX §c- §7..."
+		"description": "§8By §cSozoKa §8for §c1.21.x §8- §7Craft back minecart and boat variants into uncombined items"
 	},
 	"overlays": {
 		"entries": [
 			{
+				"formats": [57, 70],
+				"directory": "v57-1.21.2-stupid_new_recipe_format"
+			},
+			{
+				"formats": [61, 81],
+				"min_format": 61,
+				"max_format": 9999,
+				"directory": "v61-1.21.4-pale_oak_boat"
+			},
+			{
 				"formats": [71, 81],
 				"min_format": 71,
-				"max_format": 999,
+				"max_format": 9999,
 				"directory": "v71-1.21.5"
 			}
 		]

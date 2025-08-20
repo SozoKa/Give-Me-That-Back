@@ -8,3 +8,5 @@
 # A little credit is still apreciated :)
 # 
 
+execute as @a run function givemethatback:check/minecart
+execute as @a run function givemethatback:check/boat

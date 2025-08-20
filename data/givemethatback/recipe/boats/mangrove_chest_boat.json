@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "chest_boats_uncombine",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:mangrove_chest_boat"
+        }
+    ],
+    "result": {
+        "id": "mangrove_boat",
+        "components": {
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:custom_data": {
+                "givemethatback": {
+                    "chest": true,
+                    "boat": true
+                }
+            },
+            "minecraft:custom_name": "[{\"italic\":false,\"translate\":\"item.minecraft.mangrove_boat\"},{\"italic\":false,\"text\":\" & \"},{\"italic\":false,\"translate\":\"block.minecraft.chest\"}]",
+            "minecraft:lore": [
+                "{\"text\":\"Uncombined\",\"italic\":false,\"color\":\"gray\"}"
+            ]
+        }
+    }
+}

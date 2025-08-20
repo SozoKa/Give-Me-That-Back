@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "chest_boats_uncombine",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:birch_chest_boat"
+    ],
+    "result": {
+        "id": "birch_boat",
+        "components": {
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:custom_data": {
+                "givemethatback": {
+                    "chest": true,
+                    "boat": true
+                }
+            },
+            "minecraft:custom_name": "[{\"italic\":false,\"translate\":\"item.minecraft.birch_boat\"},{\"italic\":false,\"text\":\" & \"},{\"italic\":false,\"translate\":\"block.minecraft.chest\"}]",
+            "minecraft:lore": [
+                "{\"text\":\"Uncombined\",\"italic\":false,\"color\":\"gray\"}"
+            ]
+        }
+    }
+}

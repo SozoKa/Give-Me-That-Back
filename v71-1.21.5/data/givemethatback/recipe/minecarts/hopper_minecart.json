@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        [
+            "minecraft:hopper_minecart"
+        ]
+    ],
+    "result": {
+        "id": "minecart",
+        "components": {
+            "minecraft:custom_name": [
+                {
+                    "translate": "item.minecraft.minecart",
+                    "type": "translatable",
+                    "italic": false
+                },
+                {
+                    "text": " & ",
+                    "italic": false
+                },
+                {
+                    "translate": "block.minecraft.hopper",
+                    "type": "translatable",
+                    "italic": false
+                }
+            ],
+            "minecraft:lore": [
+                {
+                    "text": "Uncombined",
+                    "color": "gray",
+                    "italic": false
+                }
+            ],
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:custom_data": {
+                "givemethatback": {
+                    "hopper": true,
+                    "minecart": true
+                }
+            }
+        }
+    }
+}
