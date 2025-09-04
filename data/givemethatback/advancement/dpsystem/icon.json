@@ -4,11 +4,11 @@
 			"id": "minecraft:chest_minecart"
 		},
 		"title": "Give me that back",
-		"description": "§8Made for §c1.21.x\n§8v1.0.0\n\n§7Craft back minecart and boat variants into uncombined items!\n\nI'll will give you both the minecart/boat and the block that was inside.\n\n§8by §cSozoKa",
+		"description": "§8Made for §c1.21.x\n§8v1.0.1\n\n§7Craft back minecart and boat variants into uncombined items!\n\nI'll will give you both the minecart/boat and the block that was inside.\n\n§8by §cSozoKa",
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "sozoka:root",
+	"parent": "sozoka:me",
 	"criteria": {
 		"Install \"GIVE ME THAT BACK\" datapack": {
 			"trigger": "minecraft:tick"

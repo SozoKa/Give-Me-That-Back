@@ -8,6 +8,6 @@
 # A little credit is still apreciated :)
 # 
 
-tellraw @a {"text":"§7■§6§l Give me that back §8§l| §7By §cSozoKa §8- §7running!"}
+tellraw @a[tag=convention.debug] {"text":"§7■§6§l Give me that back §8§l| §7By §cSozoKa §8- §7running!"}
 
 scoreboard objectives add givemethatback dummy
