@@ -32,6 +32,11 @@ execute if score .type givemethatback matches 1.. run give @s mangrove_boat 1
 execute if score .type givemethatback matches 1.. run return 1
 
 
+execute store success score .type givemethatback run clear @s minecraft:bamboo_raft[custom_data={givemethatback:{boat:1b,chest:1b}}] 1
+execute if score .type givemethatback matches 1.. run give @s minecraft:bamboo_raft 1
+execute if score .type givemethatback matches 1.. run return 1
+
+
 execute store success score .type givemethatback run clear @s cherry_boat[custom_data={givemethatback:{boat:1b,chest:1b}}] 1
 execute if score .type givemethatback matches 1.. run give @s cherry_boat 1
 execute if score .type givemethatback matches 1.. run return 1

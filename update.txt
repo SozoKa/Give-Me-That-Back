@@ -4,3 +4,6 @@
 1.0.1
 - Made the loading message appear only if you have the tag "convention.debug"
 - Moved the datapack's advancements icons to the community's convention tab. 
+
+1.0.2
+- Forgot the bamboo raft existed.
